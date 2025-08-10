@@ -252,7 +252,7 @@ export default function TicTacToeGame() {
         <div className="flex-1 flex items-center flex-col px-4 z-10  w-full">
           <div className=" rounded-xl shadow-2xl shadow-white/40 p-6 md:max-w-[350px]  bg-gradient-to-br from-purple-900 via-indigo-900 to-black relative border border-white/40 ">
             <div className="relative">
-              <h1 className="text-center md:text-4xl text-2xl font-bold text-white">
+              <h1 className="text-center md:text-4xl text-2xl font-bold text-blue-700">
                 TIC TAC TOE
               </h1>
               <p className="text-sm text-center text-white pb-4 ">
