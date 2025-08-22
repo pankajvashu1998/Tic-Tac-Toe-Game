@@ -16,7 +16,11 @@ const HomeScreen = ({ props }) => {
   return (
     <div className=" bubbleBackground  flex justify-center flex-col items-center  w-full relative overflow-hidden">
       {/* Middle - Game Image */}
-      <div className="flex-1 flex items-center flex-col justify-center gap-7  px-4 z-10 bg-indigo-900/90  min-h-screen w-full">
+      <div className="flex-1 flex items-center justify-evenly flex-col sm:flex-row gap-7  px-4 z-10 bg-indigo-900/90  min-h-screen w-full">
+        {/* ads by google */}
+        <div>
+           
+        </div>
         <div className=" p-6 md:max-w-[350px] w-full   relative ">
           <div className="relative">
             <h1 className="text-center md:text-5xl text-2xl font-bold text-white">
@@ -98,14 +102,17 @@ const HomeScreen = ({ props }) => {
             </button>
           </div>
         </div>
-      </div>
 
-     
+        {/* ads by google */}
+        <div>
+               
+        </div>
+      </div>
 
       {/* Difficulty Modal */}
       {showDifficultyModal && (
         <div className="fixed w-full   bubbleBackground   z-50">
-          <div className="w-full h-screen bg-indigo-900/90 flex items-center justify-center">
+          <div className="w-full h-screen p-4 bg-indigo-900/90 flex items-center justify-center">
             <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl shadow-2xl max-w-md w-full p-6 relative animate__animated animate__bounceIn">
               <button
                 onClick={() => setShowDifficultyModal(false)}
@@ -199,7 +206,6 @@ const HomeScreen = ({ props }) => {
         </div>
       )}
 
-    
     </div>
   );
 };

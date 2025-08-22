@@ -5,6 +5,9 @@ import { Gamepad2, Users, Trophy, MinusCircle } from "lucide-react";
 const About = () => {
   return (
     <div className="bg-white px-4 sm:px-6 lg:px-2 py-8 w-full">
+      <div className="max-w-full flex justify-center items-center ">
+          <div className="my-6"></div>
+      </div>
       {/* About Tic Tac Toe */}
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-3xl sm:text-4xl font-bold text-slate-800">

@@ -275,9 +275,10 @@ export default function TicTacToeGame() {
 
   // Game Board
   return (
-    <div className=" bubbleBackground   relative overflow-hidden ">
-      <div className="bg-indigo-900/90 min-h-screen w-full flex justify-center items-center">
-        <div className="w-sm m-auto p-6 rounded-xl z-10  relative border border-white/40 bg-indigo-900">
+    <div className=" bubbleBackground    relative overflow-hidden ">
+      <div className="bg-indigo-900/90 p-4 min-h-screen    flex justify-center items-center">
+       
+        <div className="w-sm m-auto p-4 rounded-xl z-10  relative border border-white/40 bg-indigo-900">
           {/* Header */}
           <div className="flex items-center justify-between mb-6 ">
             <button
